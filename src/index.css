@@ -27,7 +27,7 @@ body {
 }
 
 section {
-  padding: 2em 0;
+  padding: 4em 0 2em 0;
 }
 
 section.bg-gray {
@@ -87,11 +87,11 @@ section.bg-gray {
 
 /* subscribe */
 .bg-img {
-  min-height: 75vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #141213, #2c2a2b50),
+  background: linear-gradient(135deg, #050505, #1d1c1c50),
     url('https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   color: var(--bg-white);
   background-size: cover;

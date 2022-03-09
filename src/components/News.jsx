@@ -42,7 +42,7 @@ const settings = {
 
 const News = () => {
   return (
-    <section>
+    <section id='news'>
       <Container>
         <h2 className='heading-title'>News</h2>
         <Slider {...settings}>

@@ -43,7 +43,7 @@ const settings = {
 
 const Movies = () => {
   return (
-    <section>
+    <section id='latest'>
       <Container>
         <h2 className='heading-title'>Latest</h2>
         <Slider {...settings}>
