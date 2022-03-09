@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  box-sizing: border-box;
+
+  /* colors */
+  --bg-white: #fcfcfc;
+  --bg-dark: #333;
+  --bg-gray: #ddd;
+  --bg-accent: #dc3545;
+
+  --text: #333;
+  --text-accent: #dc3545;
+  --text-white: #fcfcfc;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+section {
+  padding: 2em 0;
+}
+
+section.bg-gray {
+  background-color: var(--bg-gray);
+}
+
+.heading-title {
+  font-weight: bold;
+  position: relative;
+  margin: 0.5em 0;
+  padding: 0.3em 0;
+}
+
+.heading-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 5px;
+  background-color: red;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: var(--bg-accent);
+}
+
+.navbar a {
+  text-transform: uppercase;
+}
+
+/* hero section */
+
+.carousel .carousel-item {
+  height: 75vh;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100%;
+}
+
+/* cards */
+.card {
+  margin-right: 1em;
+}
+
+@media (max-width: 480px) {
+  .card {
+    margin: 0;
+  }
 }
