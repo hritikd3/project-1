@@ -1,15 +1,18 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Button, Card, Container } from 'react-bootstrap';
 import Slider from 'react-slick';
 import { moviesData } from '../data/data';
 
 const settings = {
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 4,
   initialSlide: 0,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  cssEase: 'linear',
   responsive: [
     {
       breakpoint: 1024,
@@ -46,7 +49,7 @@ const Movies = () => {
         <Slider {...settings}>
           {moviesData.map((item) => {
             return (
-              <div className='silder-item' key={item.id}>
+              <div key={item.id}>
                 <Card>
                   <Card.Img variant='top' src={item.img} />
                   <Card.Body>
@@ -58,13 +61,11 @@ const Movies = () => {
             );
           })}
         </Slider>
-        <Row className='my-5'>
-          <Col className='text-center'>
-            <Button variant='danger' href='/movies'>
-              View more
-            </Button>
-          </Col>
-        </Row>
+        <div className='text-center my-5'>
+          <Button variant='danger' href='/movies'>
+            View more
+          </Button>
+        </div>
       </Container>
     </section>
   );
