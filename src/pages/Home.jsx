@@ -1,17 +1,44 @@
 import Hero from '../components/Hero';
-import Movies from '../components/Movies';
 import Videos from '../components/Videos';
-import News from '../components/News';
 import Subscribe from '../components/Subscribe';
+import MoviesList from '../components/MoviesList';
+import NewsList from '../components/NewsList';
+import { useState } from 'react';
+import { BsArrowUpSquareFill } from 'react-icons/bs';
 
 const Home = () => {
+  const [show, setShow] = useState(false);
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 1000) {
+      setShow(true);
+    } else if (scrolled <= 1000) {
+      setShow(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  window.addEventListener('scroll', toggleVisible);
+
   return (
     <div>
       <Hero />
-      <Movies />
+      <MoviesList />
       <Videos />
-      <News />
+      <NewsList />
       <Subscribe />
+      {show && (
+        <button className='top' onClick={scrollToTop}>
+          <BsArrowUpSquareFill />
+        </button>
+      )}
     </div>
   );
 };

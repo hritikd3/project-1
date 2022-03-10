@@ -41,7 +41,7 @@ const settings = {
   ],
 };
 
-const Movies = () => {
+const MoviesList = () => {
   return (
     <section id='latest'>
       <Container>
@@ -70,4 +70,4 @@ const Movies = () => {
     </section>
   );
 };
-export default Movies;
+export default MoviesList;

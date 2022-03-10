@@ -16,7 +16,7 @@ const Subscribe = () => {
             </Form.Text>
           </Form.Group>
           <Button variant='danger' type='submit'>
-            submit
+            Submit
           </Button>
           <div className='my-2'>
             <a href='/privacy-policy' className='link link-danger'>

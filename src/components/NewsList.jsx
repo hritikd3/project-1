@@ -40,7 +40,7 @@ const settings = {
   ],
 };
 
-const News = () => {
+const NewsList = () => {
   return (
     <section id='news'>
       <Container>
@@ -73,4 +73,4 @@ const News = () => {
     </section>
   );
 };
-export default News;
+export default NewsList;
