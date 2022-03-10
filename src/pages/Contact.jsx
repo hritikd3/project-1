@@ -2,7 +2,7 @@ import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <section className='vh-100'>
+    <section className='min-vh-100'>
       <Container>
         <h2 className='heading-title'>Contact us</h2>
         <Row className='my-5' xs={1} sm={2}>

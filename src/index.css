@@ -62,7 +62,7 @@ section.bg-gray {
   line-height: 0;
   background-color: transparent;
   border: none;
-  color: var(--bg-accent);
+  color: var(--text-accent);
 }
 
 .heading-title::after {
