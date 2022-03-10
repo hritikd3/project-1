@@ -5,7 +5,7 @@
   --bg-white: #fcfcfc;
   --bg-dark: #333;
   --bg-gray: #ddd;
-  --bg-accent: #dc3545;
+  --bg-accent: #191919;
 
   --text: #333;
   --text-accent: #dc3545;
@@ -25,6 +25,18 @@
 
 body {
   line-height: 1.6;
+}
+
+img {
+  display: block;
+  font-size: 0;
+  width: 100%;
+}
+
+.img-svg {
+  width: 80%;
+  max-width: 360px;
+  margin: 0 auto;
 }
 
 section {
@@ -60,7 +72,7 @@ section.bg-gray {
   left: 0;
   width: 40px;
   height: 5px;
-  background-color: red;
+  background-color: var(--bg-accent);
 }
 
 /* navbar */
@@ -76,8 +88,12 @@ section.bg-gray {
 /* hero section */
 
 .carousel .carousel-item {
-  height: 75vh;
+  min-height: 92vh;
   object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 3rem;
 }
 
 .carousel-item img {
@@ -99,29 +115,41 @@ section.bg-gray {
 
 /* subscribe */
 .bg-img {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #050505, #1d1c1c50),
-    url('https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    url('https://www.yashrajfilms.com/images/default-source/subscriber-background/subscribe-bg22.jpg?sfvrsn=4')
+      center;
   color: var(--bg-white);
   background-size: cover;
+}
+
+.btn-danger {
+  border-color: var(--bg-gray);
+}
+
+.btn-danger:hover {
+  border-color: var(--bg-gray);
+  opacity: 0.8;
 }
 
 /* footer */
 .bg-dark {
   background-color: var(--bg-dark);
   color: var(--text-white);
+  padding-bottom: 1em;
 }
 
 .footer-col a {
   display: block;
   color: var(--text-gray);
   text-decoration: none;
+  opacity: 0.6;
 }
+
 .footer-col a:hover {
-  text-decoration: underline;
+  opacity: 1;
 }
 
 .footer-social {
@@ -131,6 +159,36 @@ section.bg-gray {
 
 .footer-social a {
   margin-right: 1em;
+}
+
+.btn-accent {
+  background-color: var(--bg-accent);
+  border-color: var(--bg-accent);
+}
+
+.btn-accent:hover {
+  background-color: var(--bg-accent);
+  border-color: var(--bg-accent);
+  opacity: 0.8;
+}
+
+.btn-danger {
+  background-color: var(--bg-accent);
+}
+
+.btn-outline-danger {
+  color: var(--bg-accent);
+  border-color: var(--bg-accent);
+}
+
+.btn-danger:hover {
+  background-color: var(--bg-accent);
+  opacity: 0.8;
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--bg-accent);
+  opacity: 0.8;
 }
 
 @media (max-width: 480px) {
@@ -161,5 +219,8 @@ section.bg-gray {
   }
   .footer-social a {
     margin: 1em;
+  }
+  .footer {
+    text-align: center;
   }
 }

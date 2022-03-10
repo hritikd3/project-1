@@ -12,7 +12,7 @@ const Header = () => {
     >
       <Container>
         <Navbar.Brand to='/' as={Link}>
-          Logo
+          Purohit Films
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>

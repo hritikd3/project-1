@@ -26,7 +26,7 @@ const Footer = () => {
           </Col>
           <Col sm className='footer-col footer-brand'>
             <a href='/#'>
-              <h2>Logo</h2>
+              <h2>Purohit Films</h2>
             </a>
             <div className='footer-social'>
               <a href='/#'>
@@ -41,6 +41,9 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
+        <p className='mt-4'>
+          Copyright © Purohit Films Pvt. Ltd. All Rights Reserved.
+        </p>
       </Container>
     </section>
   );
