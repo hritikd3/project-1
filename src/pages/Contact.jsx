@@ -1,10 +1,45 @@
-import { Col, Container, Form, Row, Button } from 'react-bootstrap';
+import { Col, Container, Form, Row, Button, Card } from 'react-bootstrap';
+import { GrLocation, GrMailOption } from 'react-icons/gr';
 
 const Contact = () => {
   return (
     <section className='min-vh-100'>
+      <div className='bg-img contact'>
+        <p>Got a query? Send us an email.</p>
+      </div>
       <Container>
-        <h2 className='heading-title'>Contact us</h2>
+        <div className='text-center'>
+          <h2 className='heading-title'>Contact us</h2>
+        </div>
+        <Row xs={1} md={3} className='g-2'>
+          <Col>
+            <Card className='d-flex justify-content-center align-items-center flex-column border p-4'>
+              <div className='outlineed-icon'>
+                <GrLocation />
+              </div>
+              <h3>Address</h3>
+              <p>Jogeshwari, Mumbai, India - 400104</p>
+            </Card>
+          </Col>
+          <Col>
+            <Card className='d-flex justify-content-center align-items-center flex-column border p-4'>
+              <div className='outlineed-icon'>
+                <GrMailOption />
+              </div>
+              <h3>Email</h3>
+              <p>example@gmail.com</p>
+            </Card>
+          </Col>
+          <Col>
+            <Card className='d-flex justify-content-center align-items-center flex-column border p-4 text-center'>
+              <div className='outlineed-icon'>
+                <GrLocation />
+              </div>
+              <h3>Phone</h3>
+              <p>+91-1111222233</p>
+            </Card>
+          </Col>
+        </Row>
         <Row className='my-5' xs={1} sm={2}>
           <Col className='p-4'>
             <img
@@ -37,9 +72,15 @@ const Contact = () => {
                   style={{ height: '100px' }}
                 />
               </Form.Group>
-              <Button className='btn-accent' type='submit'>
-                Submit
-              </Button>
+              <a
+                href='mailto:example@example.com'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <Button className='btn-accent' type='submit'>
+                  Submit
+                </Button>
+              </a>
             </Form>
           </Col>
         </Row>

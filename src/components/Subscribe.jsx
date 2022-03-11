@@ -2,7 +2,7 @@ import { Button, Container, Form } from 'react-bootstrap';
 
 const Subscribe = () => {
   return (
-    <section className='bg-img'>
+    <section className='bg-img subscribe'>
       <Container>
         <h2 className='heading-title'>Subscribe</h2>
         <h3>Stay in touch and you won’t miss a thing!</h3>

@@ -1,13 +1,26 @@
+import { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import { carouselData } from '../data/data';
 
 const Hero = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  const showWidth = () => {
+    setWidth(window.innerWidth);
+  };
+
+  window.addEventListener('resize', showWidth);
+
   return (
     <Carousel>
       {carouselData.map((item) => {
         return (
           <Carousel.Item key={item.id}>
-            <img className='d-block w-100' src={item.img} alt={item.title} />
+            <img
+              className='d-block w-100'
+              src={width > 768 ? item.desktopImg : item.mobileImg}
+              alt={item.title}
+            />
           </Carousel.Item>
         );
       })}

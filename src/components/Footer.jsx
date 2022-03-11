@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section className='bg-dark footer'>
       <Container>
-        <Row>
+        <Row className='d-flex justify-content-between'>
           <Col className='footer-col' sm>
             <Row>
               <Col className='footer-col footer-links' sm>
@@ -29,19 +29,19 @@ const Footer = () => {
               <h2>Purohit Films</h2>
             </a>
             <div className='footer-social'>
-              <a href='/#'>
+              <a href='/#' className='fb-icon'>
                 <FaFacebookSquare />
               </a>
-              <a href='/#'>
+              <a href='/#' className='insta-icon'>
                 <FaInstagram />
               </a>
-              <a href='/#'>
+              <a href='/#' className='twitter-icon'>
                 <FaTwitter />
               </a>
             </div>
           </Col>
         </Row>
-        <p className='mt-4'>
+        <p className='mt-4 text-muted'>
           Copyright © Purohit Films Pvt. Ltd. All Rights Reserved.
         </p>
       </Container>

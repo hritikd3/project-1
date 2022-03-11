@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Button, Card, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { moviesData } from '../data/data';
 
@@ -62,9 +63,9 @@ const MoviesList = () => {
           })}
         </Slider>
         <div className='text-center my-5'>
-          <Button variant='danger' href='/movies'>
-            View more
-          </Button>
+          <Link to='/movies'>
+            <Button variant='danger'>View more</Button>
+          </Link>
         </div>
       </Container>
     </section>

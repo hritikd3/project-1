@@ -1,4 +1,5 @@
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { videosData } from '../data/data';
 
@@ -64,9 +65,9 @@ const NewsList = () => {
         </Slider>
         <Row className='my-5'>
           <Col className='text-center'>
-            <Button variant='danger' href='/movies'>
-              View more
-            </Button>
+            <Link to='/news'>
+              <Button variant='danger'>View more</Button>
+            </Link>
           </Col>
         </Row>
       </Container>

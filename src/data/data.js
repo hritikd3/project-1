@@ -1,15 +1,14 @@
 export const carouselData = [
   {
     id: 1,
-    img: './images/carousel-1.jpg',
-    title: 'First Slide',
-    description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+    desktopImg: './images/carousel-1.jpg',
+    mobileImg: './images/carousel-1-mobile.jpg',
   },
   {
     id: 2,
-    img: './images/carousel-2.jpg',
-    title: 'Second Slide',
-    description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+    desktopImg: './images/carousel-2.jpg',
+    mobileImg:
+      'https://www.yashrajfilms.com/images/default-source/home-new/Tiger3-HomePage-20x442-Mobile.jpg?sfvrsn=6',
   },
 ];
 
