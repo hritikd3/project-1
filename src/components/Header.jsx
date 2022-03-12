@@ -12,9 +12,11 @@ const Header = () => {
       sticky='top'
     >
       <Container>
-        <Navbar.Brand to='/' as={Link}>
-          Purohit Films
-        </Navbar.Brand>
+        <LinkContainer to='/'>
+          <Navbar.Brand to='/' as={Link}>
+            Purohit Films
+          </Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto'>

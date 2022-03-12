@@ -137,6 +137,14 @@ section.bg-gray {
   height: 100%;
 }
 
+.card-img-top {
+  transition: 0.15s filter ease-in;
+}
+
+.card:hover .card-img-top {
+  filter: brightness(0.4);
+}
+
 .card p {
   margin-bottom: 0;
 }
