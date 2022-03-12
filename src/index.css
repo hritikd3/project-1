@@ -4,8 +4,8 @@
   /* colors */
   --bg-white: #fcfcfc;
   --bg-dark: #333;
-  --bg-gray: #ddd;
-  --bg-accent: #191919;
+  --bg-gray: #dddddd;
+  --bg-accent: #f0a500;
 
   --text: #333;
   --text-accent: #dc3545;
@@ -55,7 +55,7 @@ section.bg-gray {
   line-height: 0;
   background-color: transparent;
   border: none;
-  color: var(--text-accent);
+  color: var(--bg-accent);
   animation: shake 1s;
   animation-iteration-count: infinite;
 }
@@ -93,6 +93,7 @@ section.bg-gray {
   position: relative;
   padding: 0.5em;
   margin: 1em 0;
+  color: var(--bg-accent);
 }
 
 .heading-title::after,
@@ -142,7 +143,7 @@ section.bg-gray {
 }
 
 .card:hover .card-img-top {
-  filter: brightness(0.4);
+  filter: brightness(0.8);
 }
 
 .card p {

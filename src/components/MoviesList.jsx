@@ -46,16 +46,15 @@ const MoviesList = () => {
   return (
     <section id='latest'>
       <Container>
-        <h2 className='heading-title'>Latest</h2>
+        <h2 className='heading-title'>Models</h2>
         <Slider {...settings}>
-          {moviesData.map((item) => {
+          {moviesData.map((item, i) => {
             return (
               <div key={item.id}>
                 <Card>
                   <Card.Img variant='top' src={item.img} />
                   <Card.Body>
-                    <Card.Title>{item.name}</Card.Title>
-                    <Card.Text>{item.release}</Card.Text>
+                    <Card.Title>{`Model - ${i + 1}`}</Card.Title>
                   </Card.Body>
                 </Card>
               </div>

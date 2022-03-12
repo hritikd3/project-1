@@ -15,25 +15,25 @@ export const carouselData = [
 export const moviesData = [
   {
     id: 1,
-    img: 'https://www.yashrajfilms.com/images/default-source/Movies/Jayeshbhai-Jordaar/jayeshbhai-jordaarb696ada026f56f7f9f64ff0e00090313',
+    img: './images/model-1.jpg',
     name: 'JAYESHBHAI JORDAAR',
     release: '13 May 2022',
   },
   {
     id: 2,
-    img: 'https://www.yashrajfilms.com/images/default-source/Movies/Pathaan/pathaana394ada026f56f7f9f64ff0e00090313',
+    img: './images/model-2.jpg',
     name: 'PATHAAN',
     release: '25 January 2023',
   },
   {
     id: 3,
-    img: 'https://www.yashrajfilms.com/images/default-source/Movies/Prithviraj/prithviraj159fa8a026f56f7f9f64ff0b00090313',
+    img: './images/model-3.jpg',
     name: 'PRITHVIRAJ',
     release: '03 June 2022',
   },
   {
     id: 4,
-    img: 'https://www.yashrajfilms.com/images/default-source/Movies/Shamshera/ranbir-kapoor-in-as-shamshera53a8a5a026f56f7f9f64ff0b00090313',
+    img: './images/model-4.jpg',
     name: 'SHAMSHERA',
     release: '22 July 2022',
   },

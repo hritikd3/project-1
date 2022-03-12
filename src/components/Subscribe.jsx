@@ -15,7 +15,7 @@ const Subscribe = () => {
               Don’t worry, we don’t spam. You can opt out any time.
             </Form.Text>
           </Form.Group>
-          <Button variant='danger' type='submit'>
+          <Button className='btn-accent' type='submit'>
             Submit
           </Button>
           <div className='my-2'>
