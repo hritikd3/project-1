@@ -4,19 +4,15 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = () => {
   return (
-    <Navbar
-      collapseOnSelect
-      expand='lg'
-      className='navbar'
-      variant='dark'
-      sticky='top'
-    >
+    <Navbar collapseOnSelect expand='lg' className='navbar' sticky='top'>
       <Container>
-        <LinkContainer to='/'>
-          <Navbar.Brand to='/' as={Link}>
-            Purohit Films
-          </Navbar.Brand>
-        </LinkContainer>
+        <Nav>
+          <LinkContainer to='/'>
+            <Nav.Link to='/' as={Link}>
+              Purohit Films
+            </Nav.Link>
+          </LinkContainer>
+        </Nav>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto'>

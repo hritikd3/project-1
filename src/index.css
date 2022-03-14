@@ -125,10 +125,11 @@ section.bg-gray {
 /* navbar */
 
 .navbar {
-  background-color: var(--bg-accent);
+  background: #fcfcfc;
+  box-shadow: 0 0 10px 0 #4a413e85;
 }
 
-.navbar a {
+.navbar .nav-link {
   text-transform: uppercase;
 }
 
@@ -170,7 +171,7 @@ section.min-vh-100 {
 
 .subscribe {
   background: linear-gradient(135deg, #050505, #1d1c1c50),
-    url('https://www.yashrajfilms.com/images/default-source/subscriber-background/subscribe-bg22.jpg?sfvrsn=4')
+    url('https://images.pexels.com/photos/1209658/pexels-photo-1209658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
       center;
 }
 
@@ -230,14 +231,25 @@ section.min-vh-100 {
 }
 
 .footer-social {
+  margin: 1em 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 .footer-social a {
-  margin-right: 1em;
+  margin-left: 1em;
   font-size: 1.5em;
+}
+
+.footer-col .logo-img-container {
+  opacity: 1;
+}
+
+.logo-img {
+  display: block;
+  max-width: 80px;
+  margin-left: auto;
 }
 
 .footer-social a.fb-icon:hover {

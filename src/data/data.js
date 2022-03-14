@@ -31,12 +31,6 @@ export const moviesData = [
     name: 'PRITHVIRAJ',
     release: '03 June 2022',
   },
-  {
-    id: 4,
-    img: './images/model-4.jpg',
-    name: 'SHAMSHERA',
-    release: '22 July 2022',
-  },
 ];
 
 export const videosData = [

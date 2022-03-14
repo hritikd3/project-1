@@ -25,8 +25,8 @@ const Footer = () => {
             </Row>
           </Col>
           <Col sm className='footer-col footer-brand'>
-            <a href='/#'>
-              <h2>Purohit Films</h2>
+            <a href='/#' className='logo-img-container'>
+              <img src='./images/logo.jpg' className='logo-img' alt='' />
             </a>
             <div className='footer-social'>
               <a href='/#' className='fb-icon'>

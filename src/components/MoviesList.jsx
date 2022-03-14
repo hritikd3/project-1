@@ -8,8 +8,8 @@ const settings = {
   dots: true,
   infinite: true,
   speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToShow: 3,
+  slidesToScroll: 3,
   initialSlide: 0,
   autoplay: true,
   autoplaySpeed: 2000,
@@ -41,6 +41,8 @@ const settings = {
     },
   ],
 };
+
+console.log(moviesData);
 
 const MoviesList = () => {
   return (
