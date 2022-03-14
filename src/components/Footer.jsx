@@ -29,13 +29,22 @@ const Footer = () => {
               <img src='./images/logo.jpg' className='logo-img' alt='' />
             </a>
             <div className='footer-social'>
-              <a href='/#' className='fb-icon'>
+              <a
+                href='https://m.facebook.com/Purohit-film-entertainment-118847833252900'
+                className='fb-icon'
+              >
                 <FaFacebookSquare />
               </a>
-              <a href='/#' className='insta-icon'>
+              <a
+                href='https://instagram.com/purohitfilms'
+                className='insta-icon'
+              >
                 <FaInstagram />
               </a>
-              <a href='/#' className='twitter-icon'>
+              <a
+                href='https://twitter.com/purohitFilms'
+                className='twitter-icon'
+              >
                 <FaTwitter />
               </a>
             </div>

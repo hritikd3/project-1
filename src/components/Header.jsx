@@ -5,6 +5,7 @@ import { useRef } from 'react';
 
 const Header = () => {
   const navLinkRef = useRef();
+  const logoRef = useRef();
 
   const handleBrandClick = () => {
     navLinkRef.current.childNodes.forEach((link) => {
@@ -21,6 +22,7 @@ const Header = () => {
             as={Link}
             className='nav-brand'
             onClick={handleBrandClick}
+            ref={logoRef}
           >
             <img src='./images/logo.jpg' alt='logo' className='logo-img' />
           </Nav.Link>

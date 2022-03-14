@@ -298,12 +298,12 @@ section.min-vh-100 {
   .card {
     margin: 0;
   }
-  .nav-brand {
-    padding: 0 !important;
-  }
 }
 
 @media screen and (max-width: 568px) {
+  .nav-brand {
+    padding: 0 !important;
+  }
   .footer-col {
     text-align: center;
     margin: 0.5em 0;

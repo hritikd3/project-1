@@ -18,7 +18,9 @@ const Contact = () => {
                 <GrLocation />
               </div>
               <h3>Address</h3>
-              <p>Jogeshwari, Mumbai, India - 400104</p>
+              <p>
+                Motilal Nagar MG Road, Indore, Madhya Pradesh, India - 400104
+              </p>
             </Card>
           </Col>
           <Col>
@@ -36,7 +38,7 @@ const Contact = () => {
                 <GrLocation />
               </div>
               <h3>Phone</h3>
-              <p>+91-1111222233</p>
+              <p>+91-9685509973</p>
             </Card>
           </Col>
         </Row>
