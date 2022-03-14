@@ -5,12 +5,12 @@
   --bg-white: #fcfcfc;
   --bg-dark: #333;
   --bg-gray: #faf6f6;
-  --bg-accent: #f0a500;
+  --bg-accent: #cf7011;
 
   --text: #333;
   --text-accent: #dc3545;
   --text-white: #fcfcfc;
-  --text-gray: #ddd;
+  --text-gray: #fce7d2;
   scroll-behavior: smooth;
 }
 
@@ -93,7 +93,7 @@ section.bg-gray {
   position: relative;
   padding: 0.5em;
   margin: 1em 0;
-  color: var(--bg-accent);
+  color: var(--bg-dark);
 }
 
 .heading-title::after,
@@ -132,6 +132,10 @@ section.bg-gray {
 .navbar .nav-link,
 .navbar a {
   text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: bold;
 }
 
 /* cards */
