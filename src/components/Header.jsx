@@ -1,19 +1,33 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
+import { useRef } from 'react';
 
 const Header = () => {
+  const navLinkRef = useRef();
+
+  const handleBrandClick = () => {
+    navLinkRef.current.childNodes.forEach((link) => {
+      link.classList.remove('active');
+    });
+  };
+
   return (
     <Navbar collapseOnSelect expand='lg' className='navbar' sticky='top'>
       <Container>
         <LinkContainer to='/'>
-          <Navbar.Brand to='/' as={Link}>
+          <Nav.Link
+            to='/'
+            as={Link}
+            className='nav-brand'
+            onClick={handleBrandClick}
+          >
             <img src='./images/logo.jpg' alt='logo' className='logo-img' />
-          </Navbar.Brand>
+          </Nav.Link>
         </LinkContainer>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='me-auto'>
+          <Nav className='me-auto' ref={navLinkRef}>
             <LinkContainer to='/models'>
               <Nav.Link to='/models' as={Link}>
                 models

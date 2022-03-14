@@ -42,8 +42,6 @@ const settings = {
   ],
 };
 
-console.log(moviesData);
-
 const ModelList = () => {
   return (
     <section id='latest'>
@@ -64,7 +62,7 @@ const ModelList = () => {
           })}
         </Slider>
         <div className='text-center my-5'>
-          <Link to='/movies'>
+          <Link to='/models'>
             <Button variant='danger'>View more</Button>
           </Link>
         </div>
