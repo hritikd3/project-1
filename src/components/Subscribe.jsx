@@ -19,7 +19,7 @@ const Subscribe = () => {
             Submit
           </Button>
           <div className='my-2'>
-            <a href='/privacy-policy' className='link link-danger'>
+            <a href='/privacy-policy' className='link link-accent'>
               Privacy Policy
             </a>
           </div>

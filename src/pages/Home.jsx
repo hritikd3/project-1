@@ -1,11 +1,11 @@
 // import Hero from '../components/Hero';
 import Videos from '../components/Videos';
 import Subscribe from '../components/Subscribe';
-import MoviesList from '../components/MoviesList';
 import NewsList from '../components/NewsList';
 import { useState } from 'react';
 import { BsArrowUpSquareFill } from 'react-icons/bs';
 import Intro from '../components/Intro';
+import ModelList from '../components/ModelList';
 
 const Home = () => {
   const [show, setShow] = useState(false);
@@ -32,7 +32,7 @@ const Home = () => {
     <div>
       {/* <Hero /> */}
       <Intro />
-      <MoviesList />
+      <ModelList />
       <Videos />
       <NewsList />
       <Subscribe />

@@ -6,19 +6,17 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand='lg' className='navbar' sticky='top'>
       <Container>
-        <Nav>
-          <LinkContainer to='/'>
-            <Nav.Link to='/' as={Link}>
-              Purohit Films
-            </Nav.Link>
-          </LinkContainer>
-        </Nav>
+        <LinkContainer to='/'>
+          <Navbar.Brand to='/' as={Link}>
+            <img src='./images/logo.jpg' alt='logo' className='logo-img' />
+          </Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto'>
-            <LinkContainer to='/movies'>
-              <Nav.Link to='/movies' as={Link}>
-                movies
+            <LinkContainer to='/models'>
+              <Nav.Link to='/models' as={Link}>
+                models
               </Nav.Link>
             </LinkContainer>
 

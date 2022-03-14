@@ -44,7 +44,7 @@ const Videos = () => {
   return (
     <section className='bg-gray'>
       <Container>
-        <h2 className='heading-title'>Videos</h2>
+        <h2 className='heading-title'>Upcoming movies & web shows</h2>
         <Slider {...settings}>
           {videosData.map((item) => {
             return (

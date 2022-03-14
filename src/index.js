@@ -7,8 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Movies from './pages/Movies';
 import News from './pages/News';
+import Models from './pages/Movies';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +18,7 @@ ReactDOM.render(
           <Route index element={<Home />} />
           <Route path='contact' element={<Contact />} />
           <Route path='about' element={<About />} />
-          <Route path='movies' element={<Movies />} />
+          <Route path='models' element={<Models />} />
           <Route path='news' element={<News />} />
         </Route>
       </Routes>

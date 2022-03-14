@@ -44,7 +44,7 @@ const settings = {
 
 console.log(moviesData);
 
-const MoviesList = () => {
+const ModelList = () => {
   return (
     <section id='latest'>
       <Container>
@@ -72,4 +72,4 @@ const MoviesList = () => {
     </section>
   );
 };
-export default MoviesList;
+export default ModelList;

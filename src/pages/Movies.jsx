@@ -40,13 +40,13 @@ const settings = {
   ],
 };
 
-const Movies = () => {
+const Models = () => {
   return (
     <section className='min-vh-100' id='about'>
       <div className='bg-img about'></div>
       <Container>
         <div className='text-center'>
-          <h2 className='heading-title'>Movies</h2>
+          <h2 className='heading-title'>Models</h2>
         </div>
         <section className='py-2 my-5 mt-2'>
           <Slider {...settings}>
@@ -86,4 +86,4 @@ const Movies = () => {
     </section>
   );
 };
-export default Movies;
+export default Models;

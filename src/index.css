@@ -4,7 +4,7 @@
   /* colors */
   --bg-white: #fcfcfc;
   --bg-dark: #333;
-  --bg-gray: #dddddd;
+  --bg-gray: #faf6f6;
   --bg-accent: #f0a500;
 
   --text: #333;
@@ -129,7 +129,8 @@ section.bg-gray {
   box-shadow: 0 0 10px 0 #4a413e85;
 }
 
-.navbar .nav-link {
+.navbar .nav-link,
+.navbar a {
   text-transform: uppercase;
 }
 
@@ -170,9 +171,13 @@ section.min-vh-100 {
 }
 
 .subscribe {
-  background: linear-gradient(135deg, #050505, #1d1c1c50),
-    url('https://images.pexels.com/photos/1209658/pexels-photo-1209658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
-      center;
+  min-height: 95vh;
+  background: linear-gradient(135deg, #05050583, #1d1c1c50),
+    url('https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg') center;
+}
+
+.link-accent {
+  color: var(--bg-accent);
 }
 
 .contact {
@@ -322,9 +327,14 @@ section.min-vh-100 {
     justify-content: center;
   }
   .footer-social a {
-    margin: 1em;
+    margin: 0.5em 1em;
   }
   .footer {
     text-align: center;
+  }
+  .logo-img {
+    display: block;
+    max-width: 80px;
+    margin: auto;
   }
 }
