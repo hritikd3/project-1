@@ -12,50 +12,47 @@ export const carouselData = [
   },
 ];
 
-export const moviesData = [
+export const modelsData = [
   {
     id: 1,
-    img: './images/model-1.jpg',
-    name: 'JAYESHBHAI JORDAAR',
-    release: '13 May 2022',
+    img: './images/models/model-1.jpg',
+    name: 'Model - 1',
   },
   {
     id: 2,
-    img: './images/model-2.jpg',
-    name: 'PATHAAN',
-    release: '25 January 2023',
+    img: './images/models/model-2.jpg',
+    name: 'Ganesh Mehra',
   },
   {
     id: 3,
-    img: './images/model-3.jpg',
-    name: 'PRITHVIRAJ',
-    release: '03 June 2022',
+    img: './images/models/model-3.jpg',
+    name: 'Subham Gupta',
   },
 ];
 
 export const videosData = [
   {
     id: 1,
-    img: 'https://i.ytimg.com/vi/Jw3UyeMmOdw/mqdefault.jpg',
-    title: 'Tiger 3',
-    link: 'https://i.ytimg.com/vi/Jw3UyeMmOdw/mqdefault.jpg',
+    img: './images/shows/show-1.jpg',
+    title: 'Comedy ka Double Doz',
+    link: '',
   },
   {
     id: 2,
-    img: 'https://i.ytimg.com/vi/Jw3UyeMmOdw/mqdefault.jpg',
-    title: 'Tiger 3',
-    link: 'https://i.ytimg.com/vi/Jw3UyeMmOdw/mqdefault.jpg',
+    img: './images/shows/show-2.jpg',
+    title: 'Piya Ghar Jana Hai',
+    link: '',
   },
   {
     id: 3,
-    img: 'https://i.ytimg.com/vi/Jw3UyeMmOdw/mqdefault.jpg',
-    title: 'Tiger 3',
-    link: 'https://i.ytimg.com/vi/Jw3UyeMmOdw/mqdefault.jpg',
+    img: './images/shows/show-3.jpg',
+    title: 'Piya Ghar Jana Hai',
+    link: '',
   },
   {
     id: 4,
-    img: 'https://i.ytimg.com/vi/Jw3UyeMmOdw/mqdefault.jpg',
-    title: 'Tiger 3',
-    link: 'https://i.ytimg.com/vi/Jw3UyeMmOdw/mqdefault.jpg',
+    img: './images/shows/show-4.jpg',
+    title: 'Purohit Films',
+    link: '',
   },
 ];

@@ -1,6 +1,6 @@
 import { Card, Container } from 'react-bootstrap';
 import Slider from 'react-slick';
-import { moviesData } from '../data/data';
+import { modelsData } from '../data/data';
 
 const settings = {
   dots: true,
@@ -50,7 +50,7 @@ const Models = () => {
         </div>
         <section className='py-2 my-5 mt-2'>
           <Slider {...settings}>
-            {moviesData.map((item) => {
+            {modelsData.map((item) => {
               return (
                 <div key={item.id}>
                   <Card>
@@ -67,7 +67,7 @@ const Models = () => {
         </section>
         <section className='py-2 my-5'>
           <Slider {...settings}>
-            {moviesData.map((item) => {
+            {modelsData.map((item) => {
               return (
                 <div key={item.id}>
                   <Card>

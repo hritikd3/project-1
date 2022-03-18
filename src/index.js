@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import News from './pages/News';
-import Models from './pages/Movies';
+import Models from './pages/Models';
 
 ReactDOM.render(
   <React.StrictMode>

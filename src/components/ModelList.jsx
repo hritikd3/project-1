@@ -2,7 +2,7 @@
 import { Button, Card, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
-import { moviesData } from '../data/data';
+import { modelsData } from '../data/data';
 
 const settings = {
   dots: true,
@@ -48,13 +48,13 @@ const ModelList = () => {
       <Container>
         <h2 className='heading-title'>Models</h2>
         <Slider {...settings}>
-          {moviesData.map((item, i) => {
+          {modelsData.map((item, i) => {
             return (
               <div key={item.id}>
                 <Card>
                   <Card.Img variant='top' src={item.img} />
                   <Card.Body>
-                    <Card.Title>{`Model - ${i + 1}`}</Card.Title>
+                    <Card.Title>{item.name}</Card.Title>
                   </Card.Body>
                 </Card>
               </div>
