@@ -16,7 +16,7 @@ export const modelsData = [
   {
     id: 1,
     img: './images/models/model-1.jpg',
-    name: 'Model - 1',
+    name: 'Srashti viswakarma',
   },
   {
     id: 2,
