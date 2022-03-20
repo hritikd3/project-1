@@ -51,7 +51,7 @@ const Footer = () => {
           </Col>
         </Row>
         <p className='mt-4 text-muted'>
-          Copyright © Purohit Films Pvt. Ltd. All Rights Reserved.
+          Copyright © Purohit Films. All Rights Reserved.
         </p>
       </Container>
     </section>

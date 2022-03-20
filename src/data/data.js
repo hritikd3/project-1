@@ -28,6 +28,11 @@ export const modelsData = [
     img: './images/models/model-3.jpg',
     name: 'Subham Gupta',
   },
+  {
+    id: 4,
+    img: './images/models/model-4.jpg',
+    name: 'kamakshi verma',
+  },
 ];
 
 export const videosData = [
