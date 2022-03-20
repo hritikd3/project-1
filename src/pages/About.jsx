@@ -14,26 +14,13 @@ const About = () => {
           </strong>
         </p>
         <p>
-          From making high-budget blockbusters to genre-defining films, from
-          working with the biggest actors of the industry to launching young
-          talent in films, from being the distribution house with the strongest
-          global foothold to pioneering new formats of distribution and
-          exploring newer territories, from launching compelling story-telling
-          forms to the numerous digitally led innovations, Yash Raj Films (YRF)
-          has maintained its flagship position across all verticals since its
-          genesis.
+         Purohit Films is one of the booming content production house across India,delivering Hindi and regional content.Promoted by Mr.Praveen Purohit and
+    we have constantly built relationships across the entertainment industry, while identifying new avenues and markets.
         </p>
         <p>
-          YRF was founded by the Late Yash Chopra, a veteran of the Indian film
-          industry, in 1970. It’s the only privately held and fully integrated
-          studio in India producing and having produced over 80 films. YRF is
-          now a 50-year-strong production house and a vertically integrated
-          studio in every sense, controlling almost every part of the value
-          chain from production to post production, domestic & international
-          distribution, music & home entertainment, marketing, design, digital,
-          licensing, merchandising, talent management, brand partnerships, music
-          studios and film studios - all in-house facilities, which make it one
-          of the most coveted entertainment conglomerates in the country.
+         Even as we made rapid strides in the Hindi market we strategically expanded our offering to the growing demand in regional content.
+    Our success in the television market, film production are attributed to understanding the pulse of the masses, anticipating viewer and channel preferences and creating programs which are in tune with the changing times. Our state of the art infrastructure includes production sets, resources, manpower and editing machines and this allows us to continuously produce high quality shows.
+We endeavor to maintain a healthy pipeline for new TV shows , films and strive to consistently deliver top-quality content catering to a diversified audience across genres in India.
         </p>
       </Container>
     </section>
