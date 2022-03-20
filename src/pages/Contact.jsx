@@ -19,7 +19,7 @@ const Contact = () => {
               </div>
               <h3>Address</h3>
               <p>
-                Motilal Nagar MG Road, Indore, Madhya Pradesh, India - 400104
+                Motilal Nagar MG Road-Mumbai,Near Yaswant plaza-Indore India
               </p>
             </Card>
           </Col>
@@ -29,7 +29,7 @@ const Contact = () => {
                 <GrMailOption />
               </div>
               <h3>Email</h3>
-              <p>example@gmail.com</p>
+              <p>purohitfilm@gmail.com</p>
             </Card>
           </Col>
           <Col>
