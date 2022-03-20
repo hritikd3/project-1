@@ -50,14 +50,14 @@ export const videosData = [
   },
   {
     id: 3,
-    img: './images/shows/show-3.jpg',
-    title: 'Piya Ghar Jana Hai',
+    img: './images/shows/show-3.jpeg',
+    title: 'Audition notice',
     link: '',
   },
   {
     id: 4,
-    img: './images/shows/show-4.jpg',
-    title: 'Purohit Films',
+    img: './images/shows/show-4.jpeg',
+    title: 'Audition notice',
     link: '',
   },
 ];
