@@ -1,14 +1,17 @@
 export const carouselData = [
   {
     id: 1,
-    desktopImg: './images/carousel-1.jpg',
-    mobileImg: './images/carousel-1-mobile.jpg',
+    desktopImg:
+      'https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    mobileImg:
+      'https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
   {
     id: 2,
-    desktopImg: './images/carousel-2.jpg',
+    desktopImg:
+      'https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     mobileImg:
-      'https://www.yashrajfilms.com/images/default-source/home-new/Tiger3-HomePage-20x442-Mobile.jpg?sfvrsn=6',
+      'https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
 ];
 

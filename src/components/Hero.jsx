@@ -12,19 +12,21 @@ const Hero = () => {
   window.addEventListener('resize', showWidth);
 
   return (
-    <Carousel>
-      {carouselData.map((item) => {
-        return (
-          <Carousel.Item key={item.id}>
-            <img
-              className='d-block w-100'
-              src={width > 768 ? item.desktopImg : item.mobileImg}
-              alt={item.title}
-            />
-          </Carousel.Item>
-        );
-      })}
-    </Carousel>
+    <div className='height-100'>
+      <Carousel>
+        {carouselData.map((item) => {
+          return (
+            <Carousel.Item key={item.id}>
+              <img
+                className='d-block w-100'
+                src={width > 768 ? item.desktopImg : item.mobileImg}
+                alt={item.title}
+              />
+            </Carousel.Item>
+          );
+        })}
+      </Carousel>
+    </div>
   );
 };
 export default Hero;

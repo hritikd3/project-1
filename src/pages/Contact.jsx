@@ -18,8 +18,8 @@ const Contact = () => {
                 <GrLocation />
               </div>
               <h3>Address</h3>
-              <p>Motilal Nagar MG Road-Mumbai.</p>
-              <p>Near Yaswant plaza-Indore India</p>
+              <p>1st - Goregaon, West motilal Nagar MG Road, Mumbai.</p>
+              <p>2nd - Near Yaswant plaza,Indore India</p>
             </Card>
           </Col>
           <Col>

@@ -1,10 +1,10 @@
-// import Hero from '../components/Hero';
+import Hero from '../components/Hero';
 import Videos from '../components/Videos';
 import Subscribe from '../components/Subscribe';
 import NewsList from '../components/NewsList';
 import { useState } from 'react';
 import { BsArrowUpSquareFill } from 'react-icons/bs';
-import Intro from '../components/Intro';
+// import Intro from '../components/Intro';
 import ModelList from '../components/ModelList';
 
 const Home = () => {
@@ -30,8 +30,8 @@ const Home = () => {
 
   return (
     <div>
-      {/* <Hero /> */}
-      <Intro />
+      <Hero />
+      {/* <Intro /> */}
       <ModelList />
       <Videos />
       <NewsList />
