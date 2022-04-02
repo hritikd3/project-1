@@ -1,6 +1,6 @@
 import Hero from '../components/Hero';
 import Videos from '../components/Videos';
-import Subscribe from '../components/Subscribe';
+import Subscribe from '../componentss/Subscribe';
 import NewsList from '../components/NewsList';
 import { useState } from 'react';
 import { BsArrowUpSquareFill } from 'react-icons/bs';
